@@ -47,7 +47,6 @@ nav ul li:hover{
 #displayData{
     padding-top: 5%;
     width: 100%;
-    height: 100vh;
     display: grid;
     justify-content: center;
     align-items: center;
