@@ -14,8 +14,11 @@ function fetchData() {
                 const item = document.createElement('div');
                 item.innerHTML = `
                     <div class=author_quotes>
+                    <div>
                     <p class='quote'>${entry.quote}</p>
                     <p class='author'><strong>-${entry.name}<strong></p>
+                    </div>
+                    <button>View Full Quote</button>
                     </div>
                   
                 `;
