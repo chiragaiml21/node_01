@@ -63,6 +63,16 @@ nav ul li:hover{
     margin: 20px;
     display: flex;
 }
+#fullQuote{
+    width: 800px;
+    height: 100px;
+    position: absolute;
+    left: 10%;
+    top: 20%;
+}
+#fullQuote p{
+    font-size: 25px;
+}
 .author_quotes button{
     position: absolute;
     right: 28%;

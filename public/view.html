@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quote's Factory</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <nav>
+        <h1>Quote's Factory</h1>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="form.html">ADD QUOTE</a></li>
+        </ul>
+      </nav>
+
+      <div id="fullQuote">
+
+      </div>
+    </div>
+    <p class="copyright">Created by Gauri Goyal. © 2023</p>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", displayFullQuote);
+
+      function displayFullQuote() {
+        
+        const urlParams = new URLSearchParams(window.location.search);
+        const author = urlParams.get("author");
+        const quote = urlParams.get("quote");
+
+    
+        const fullQuoteDiv = document.getElementById("fullQuote");
+        fullQuoteDiv.innerHTML = `
+        <div class="full_quote">
+            <p class="quote">${quote}</p>
+            <p class="author"><strong>- ${author}</strong></p>
+        </div>
+    `;
+      }
+    </script>
+  </body>
+</html>

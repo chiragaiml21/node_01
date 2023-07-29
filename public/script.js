@@ -18,7 +18,7 @@ function fetchData() {
                     <p class='quote'>${entry.quote}</p>
                     <p class='author'><strong>-${entry.name}<strong></p>
                     </div>
-                    <button>View Full Quote</button>
+                    <button onclick="view('${entry.quote}', '${entry.name}')">View Full Quote</button>
                     </div>
                   
                 `;
@@ -29,4 +29,13 @@ function fetchData() {
     .catch((error) => {
         console.error('Error fetching data:', error);
     });
+}
+
+
+
+function view(quote, author){
+    const encodedAuthor = encodeURIComponent(author);
+    const encodedQuote = encodeURIComponent(quote);
+
+    window.location.href = `view.html?author=${encodedAuthor}&quote=${encodedQuote}`;
 }
