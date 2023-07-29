@@ -87,9 +87,9 @@ form{
 input,textarea{
     font-size: 20px;
 }
-textarea{
+/* textarea{
     width: 253px;
-}
+} */
 button{
     font-size: 20px;
 }
