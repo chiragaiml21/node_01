@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="container">
+      <nav>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="form.html">ADD</a></li>
+        </ul>
+      </nav>
+
+        <form id="myForm">
+          <table>
+            <tr>
+              <td>
+                <label for="name">Author's Name:</label>
+              </td>
+              <td>
+                <input type="text" id="name" name="name" required>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="quote">Quote:</label>
+              </td>
+              <td><textarea id="quote" name="quote" required></textarea></td>
+            </tr>
+            <tr>
+              <td colspan="2" align="center">
+                <button type="submit" onclick="window.location.href='/'">Submit</button>
+              </td>
+            </tr>
+          </table>
+        </form>
+    </div>
+
+    <script src="form.js"></script>
+  </body>
+</html>
