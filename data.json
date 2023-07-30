@@ -1,14 +1,12 @@
 [
   {
-    "name": "Gauri",
-    "quote": "Tussi sad kyu ho, 1..2..3 SMILE!"
-  },
-  {
-    "name": "Chirag",
-    "quote": "Okay:)"
-  },
-  {
     "name": "Ironman",
     "quote": "I am IRONMAN"
+  },
+  {"name":"Spider-Man",
+  "quote":"With great power comes great responsibility."
+  },
+  {"name": "Captain America",
+  "quote": "I can do this all day."
   }
 ]
