@@ -1,12 +1,18 @@
 [
   {
+    "name": "Gauri Goyal",
+    "quote": "Great enough as always"
+  },
+  {
     "name": "Ironman",
     "quote": "I am IRONMAN"
   },
-  {"name":"Spider-Man",
-  "quote":"With great power comes great responsibility."
+  {
+    "name": "Spider-Man",
+    "quote": "With great power comes great responsibility."
   },
-  {"name": "Captain America",
-  "quote": "I can do this all day."
+  {
+    "name": "Captain America",
+    "quote": "I can do this all day."
   }
 ]
