@@ -25,6 +25,7 @@ nav{
     align-items: center;
     padding: 0 20px;
     position: fixed;
+    z-index: 100;
 }
 nav ul{
     position: fixed;
@@ -62,6 +63,7 @@ nav ul li:hover{
     background: yellow;
     margin: 20px;
     display: flex;
+    position: relative;
 }
 #fullQuote{
     width: 800px;
@@ -75,8 +77,8 @@ nav ul li:hover{
 }
 .author_quotes button{
     position: absolute;
-    right: 28%;
-    margin-top: 1.8%;
+    right: 5%;
+    margin-top: 3.5%;
     padding: 8px;
     border-radius: 8px;
     font-size: 15px;
